@@ -9,7 +9,6 @@ class User < ApplicationRecord
   validates :username, uniqueness: true
   validates :email, presence: true, uniqueness: true
 
-
   has_many :orders
   has_many :artworks
 end
