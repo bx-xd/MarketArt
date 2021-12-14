@@ -1,1 +1,15 @@
-// Specific CSS for your home-page
+#banner {
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)), url('monotype_gb.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0;
+
+    #name {
+      font-size: 8rem;
+      color: white;
+    }
+    #artiste {
+      font-size: 10rem;
+      color: white;
+    }
+}
